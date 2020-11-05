@@ -1,0 +1,288 @@
+@media screen and (max-width: 782px) {
+  html {
+    margin-top: 0 !important;
+  }
+}
+
+header.has-position-absolute {
+  position: fixed !important;
+}
+@media (max-width: 768px) {
+  header.has-position-absolute {
+    position: absolute !important;
+  }
+}
+
+.customize-support header.has-position-absolute {
+  top: 32px;
+}
+@media (max-width: 768px) {
+  .customize-support header.has-position-absolute {
+    top: 46px;
+  }
+}
+
+.customize-support.overflow-active {
+  top: 0px;
+}
+@media (max-width: 768px) {
+  .customize-support.overflow-active {
+    top: 0px;
+  }
+}
+
+body.customize-support {
+  padding-top: 32px;
+}
+@media (max-width: 768px) {
+  body.customize-support {
+    padding-top: 46px;
+  }
+}
+
+.customize-support .hero-nav {
+  top: 32px;
+}
+@media (max-width: 768px) {
+  .customize-support .hero-nav {
+    top: 46px;
+  }
+}
+@media (max-width: 768px) {
+  .customize-support .hero-nav.show {
+    top: 46px !important;
+  }
+}
+
+.pll_languages {
+  list-style-type: none;
+}
+.pll_languages .icon-lenguages {
+  top: -2px;
+}
+.pll_languages .current-lang {
+  display: none;
+}
+
+.has-content a:hover {
+  color: inherit;
+}
+.has-content p {
+  font-size: 24px;
+}
+@media (max-width: 991px) {
+  .has-content p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.has-content p:last-child {
+  margin-bottom: 0;
+}
+.has-content em {
+  font-family: "GranjonLT-Italic";
+}
+.has-content h1 {
+  font-size: 72px;
+  line-height: 65px;
+}
+@media (max-width: 1028px) {
+  .has-content h1 {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+.has-content h2 {
+  font-size: 36px;
+  line-height: 48px;
+}
+@media (max-width: 1280px) {
+  .has-content h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+@media (max-width: 991px) {
+  .has-content h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+@media (max-width: 600px) {
+  .has-content h2 {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+.has-content h3 {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+button.wps-btn-cart.wps-cart-icon-fixed.wps-cart-is-empty.css-bvriye-cartIconCSS-cartIconFixedCSS-CartButton {
+  border-radius: 6px !important;
+  right: 28px !important;
+  height: 60px !important;
+  top: 120px !important;
+  width: 50px !important;
+}
+@media (max-width: 768px) {
+  button.wps-btn-cart.wps-cart-icon-fixed.wps-cart-is-empty.css-bvriye-cartIconCSS-cartIconFixedCSS-CartButton {
+    border-radius: 6px 0px 0px 6px !important;
+    right: -1px !important;
+    width: 60px !important;
+  }
+}
+@media (min-width: 1920px) {
+  button.wps-btn-cart.wps-cart-icon-fixed.wps-cart-is-empty.css-bvriye-cartIconCSS-cartIconFixedCSS-CartButton {
+    right: 137px !important;
+  }
+}
+
+.products-card .wps-items.wps-items-list.css-4fpxja-PaginationItemsCSS,
+.hide-default-cart-button .wps-items.wps-items-list.css-4fpxja-PaginationItemsCSS {
+  max-width: inherit;
+}
+.products-card .wps-component button,
+.hide-default-cart-button .wps-component button {
+  background-color: transparent;
+  color: transparent;
+}
+.products-card .wps-component.wps-component-products-quantity,
+.hide-default-cart-button .wps-component.wps-component-products-quantity {
+  display: none;
+}
+.products-card .wpshopify-has-rendered,
+.hide-default-cart-button .wpshopify-has-rendered {
+  position: absolute;
+  bottom: 0;
+}
+.products-card .wps-component-products-buy-button.css-1jovwo4-buyButtonWrapperCSS,
+.hide-default-cart-button .wps-component-products-buy-button.css-1jovwo4-buyButtonWrapperCSS {
+  margin-left: auto;
+}
+.products-card .wps-component.wps-component-products-add-button.wps-btn-wrapper,
+.hide-default-cart-button .wps-component.wps-component-products-add-button.wps-btn-wrapper {
+  background-image: url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/img/icon-cart.png");
+  background-size: contain;
+  bottom: 10px;
+  display: block;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+.products-card .wps-component.wps-component-products-add-button.wps-btn-wrapper:hover,
+.hide-default-cart-button .wps-component.wps-component-products-add-button.wps-btn-wrapper:hover {
+  background-image: url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/img/icon-cart-black.png");
+}
+.products-card .css-1xkdmuy-buyButtonWrapperCSS,
+.hide-default-cart-button .css-1xkdmuy-buyButtonWrapperCSS {
+  margin-bottom: 7px;
+  margin-left: auto;
+}
+.products-card .css-1mr7gqm-PaginationItemsCSS,
+.hide-default-cart-button .css-1mr7gqm-PaginationItemsCSS {
+  max-width: 100%;
+}
+.products-card .components-notice,
+.hide-default-cart-button .components-notice {
+  background: #fff !important;
+  border: 1px solid black;
+  border-left-color: black !important;
+  border-left-width: 1px !important;
+  display: block !important;
+  padding: 0px 5px !important;
+  margin-left: 20px !important;
+  margin-bottom: 10px !important;
+  width: auto !important;
+}
+.products-card .components-notice > div,
+.hide-default-cart-button .components-notice > div {
+  margin: 0 !important;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.products-card .wpshopify .components-notice__content,
+.hide-default-cart-button .wpshopify .components-notice__content {
+  margin: 0 !important;
+}
+.products-card .css-kw7fo0-ProductWrapperCSS,
+.hide-default-cart-button .css-kw7fo0-ProductWrapperCSS {
+  flex-direction: inherit;
+}
+
+.single-view-hide-default-cart-button .wpshopify-has-rendered {
+  width: 61px !important;
+  position: relative !important;
+}
+.single-view-hide-default-cart-button .wps-items.wps-items-list.css-4fpxja-PaginationItemsCSS {
+  max-width: inherit;
+}
+.single-view-hide-default-cart-button .wps-component button {
+  background-color: transparent;
+  color: transparent;
+}
+.single-view-hide-default-cart-button .wps-component.wps-component-products-quantity {
+  display: none;
+}
+.single-view-hide-default-cart-button .wpshopify-has-rendered {
+  position: absolute;
+  bottom: 0;
+}
+.single-view-hide-default-cart-button .wps-component-products-buy-button.css-1jovwo4-buyButtonWrapperCSS {
+  margin-left: auto;
+}
+.single-view-hide-default-cart-button .wps-component.wps-component-products-add-button.wps-btn-wrapper {
+  background-image: url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/img/icon-cart.png");
+  background-size: contain;
+  display: block;
+  position: relative;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+.single-view-hide-default-cart-button .wps-component.wps-component-products-add-button.wps-btn-wrapper:hover {
+  background-image: url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/img/icon-cart-black.png");
+}
+.single-view-hide-default-cart-button .css-1xkdmuy-buyButtonWrapperCSS {
+  margin-bottom: 7px;
+  margin-left: auto;
+}
+.single-view-hide-default-cart-button .css-1mr7gqm-PaginationItemsCSS {
+  max-width: 100%;
+}
+.single-view-hide-default-cart-button .components-notice {
+  background: #fff !important;
+  border: 1px solid black;
+  border-left-color: black !important;
+  border-left-width: 1px !important;
+  display: block !important;
+  padding: 0px 5px !important;
+  margin-left: 20px !important;
+  margin-bottom: 10px !important;
+  width: auto !important;
+}
+.single-view-hide-default-cart-button .components-notice > div {
+  margin: 0 !important;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.single-view-hide-default-cart-button .wpshopify .components-notice__content {
+  margin: 0 !important;
+}
+.single-view-hide-default-cart-button .css-kw7fo0-ProductWrapperCSS {
+  flex-direction: inherit;
+}
+
+/*# sourceMappingURL=wordpress.css.map */

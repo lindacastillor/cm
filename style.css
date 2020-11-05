@@ -1,0 +1,42 @@
+/* SETUP */
+@font-face {
+  font-family: "GranjonLT-Italic";
+  src: url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/fonts/GranjonLT-Italic.otf"), url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/fonts/GranjonLT-Italic.eot") format("embedded-opentype"), url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/fonts/GranjonLT-Italic.woff") format("woff"), url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/fonts/GranjonLT-Italic.ttf") format("truetype"), url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/fonts/GranjonLT-Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("../fonts/ProximaNova-Regular.otf"), url("../fonts/ProximaNova-Regular.eot") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype"), url("../fonts/ProximaNova-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url("../fonts/ProximaNova-Bold.otf"), url("../fonts/ProximaNova-Bold.eot") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/ProximaNova-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova-SemiB";
+  src: url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/fonts/ProximaNova-Semibold.otf"), url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/fonts/ProximaNova-Semibold.eot") format("embedded-opentype"), url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/fonts/ProximaNova-Semibold.woff") format("woff"), url("http://testbed.raidho.mx/casamadero/wp-content/themes/CasaMadero20/fonts/ProximaNova-Semibold.ttf") format("truetype"), url("../fonts/ProximaNova-Semibold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.granjonlt-it {
+  font-family: "GranjonLT-Italic", serif;
+}
+
+.proximanova-b {
+  font-family: "ProximaNova-Bold", serif;
+}
+
+.proximanova-semib {
+  font-family: "ProximaNova-SemiB", serif;
+}
+
+body {
+  font-family: "ProximaNova-Regular";
+}
+
+/*# sourceMappingURL=style.css.map */
